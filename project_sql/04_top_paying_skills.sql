@@ -1,5 +1,5 @@
 /*
-Question: What are the top skills based on Data Engineering salaries?
+Question 4: What are the top skills based on Data Engineering salaries?
 -- Look at the average salary associated with each skill for Data Engineer positions;
 -- Focus on roles with specified salaries (drop NULLs), regardless of location;
 -- Why? It reveals how different skills impact salary levels for Data Engineers
