@@ -16,7 +16,7 @@ FROM
 WHERE
     jobs.job_title_short = 'Data Engineer'
     AND jobs.salary_year_avg IS NOT NULL
---     AND jobs.job_work_from_home = TRUE  -- Optional: check only for remote jobs
+    AND jobs.job_work_from_home = TRUE  -- Optional: check only for remote jobs
 GROUP BY
     skills.skills
 ORDER BY

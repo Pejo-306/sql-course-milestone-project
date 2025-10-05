@@ -16,7 +16,7 @@ FROM
     INNER JOIN job_postings_fact AS jobs ON skills_to_job.job_id = jobs.job_id
 WHERE
     jobs.job_title_short = 'Data Engineer'
---     AND jobs.job_work_from_home = TRUE  -- Optional: check only for remote jobs
+    AND jobs.job_work_from_home = TRUE  -- Optional: check only for remote jobs
 GROUP BY
     skills.skills
 ORDER BY
